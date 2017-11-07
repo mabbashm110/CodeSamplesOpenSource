@@ -12,8 +12,8 @@ namespace EmailMarketing.Library.StandardLibraries
         [DllImport("wininet.dll")]
         private extern static bool InternetGetConnectedState(out int Description, int ReservedValue);
         public static readonly string NotificationFolder = AppDomain.CurrentDomain.BaseDirectory + "Notify/";
-        public static readonly string SupportURL = "https://yondersupport.assist.com";
-        public static readonly string NotificationsURL = "http://www.freewindowsapps.com/notify/emm.txt";
+        public static readonly string SupportURL = "<<removed>>";
+        public static readonly string NotificationsURL = "<<removed>>";
         public static readonly string DeveloperURL = "http://www.freewindowsapps.com";
         public static readonly string NoInternetNotification = "It appears that you are not connected to the internet.\nCheck your internet connection and try again.";
         public static string FileLoc { get; set; }
